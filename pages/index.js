@@ -5,7 +5,7 @@ function HomePage() {
     <div className="site-container">
     <div className="space-y-4">
       <h1 className="text-2xl font-bold">
-        selam, ben Reis!
+        Selam, ben Reis!
         Amerika&apos;da yasayan amator bir yazilim gelistiricisiyim.
       </h1>
 
