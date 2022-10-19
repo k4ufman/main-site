@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 function HomePage() {
   return <>
     <div className="site-container">
     <div className="space-y-4">
       <h1 className="text-2xl font-bold">
         selam, ben Reis!
-        Amerika'da yasayan amator bir yazilim gelistiricisiyim.
+        Amerika&apos;da yasayan amator bir yazilim gelistiricisiyim.
       </h1>
 
       <p>
@@ -16,7 +18,12 @@ function HomePage() {
     </div>
   </div>
     <div className="site-4xl-container mt-20">
-      <img src="/i-am.jpg" alt="" />
+      <Image
+          src="/i-am.jpg"
+          alt="my picture"
+          width="900"
+          height="500"
+      />
     </div>
   </>;
 }
